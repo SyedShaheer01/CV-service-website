@@ -908,7 +908,7 @@ img {
     border-radius: 50%;
 
     top: 0;
-    right: 15px;
+    right: 20px;
 
     opacity: 0.25;
 }
@@ -1510,6 +1510,25 @@ img {
 
     font-size: 10px;
     color: #65716e;
+}
+
+
+.phone-number {
+    display: flex;
+    align-items: center;
+    gap:6px;
+    margin-top: 15px;
+}
+
+.phone-number img {
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+    display: block;
+}
+
+.phone-number p {
+    margin: 0;
 }
 
 
